@@ -9,7 +9,14 @@ export default class List extends Component {
                     Button
                 </div>
                 <ul className="list">
-                    <li>list</li>
+                    {
+                        this.props.itemList.map((item, i) => {
+                    return(
+                    <li key={i}>{item}</li>
+
+                    ) 
+                    })
+                    }
                     </ul>
                 </header>
         )

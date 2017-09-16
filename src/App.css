@@ -1,5 +1,8 @@
+body {
+  background-color: #FFEFDB;
+}
+
 .listHeader {
-  
 }
 
 .button {
@@ -13,11 +16,14 @@
   
 }
 
+.search {
+}
+
 .mainContent {
   display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
 	justify-content: space-around;
 	align-items: center;
-	align-content: space-around;
+  align-content: space-around;
 }
