@@ -1,58 +1,23 @@
-body{
-  background-image: url(./books.jpg);
-
+.listHeader {
+  
 }
 
+.button {
+  width: 80px;
+  height: 30px;
+  background-color: black;
+  color: white;
+}
 
-.main_wrapper {
+.list {
+  
+}
+
+.mainContent {
   display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
 	justify-content: space-around;
 	align-items: center;
-	align-content: space-aroundÏ;
-}
-
-header {
-  position: relative;
-  top: 0px;
-  left: 0px;
-  height: 80px;
-  width: 100%;
-  background-color: purple;
-}
-
-.list {
-  position: absolute;
-}
-
-.add_book {
-  display: flex;
-	flex-direction: column;
-	flex-wrap: nowrap;
-	justify-content: center;
-	align-items: center;
-  align-content: space-between;
-  width: 20em;
-  height: 450px;
-  left: 25%;
-
-  background-color: rgb(97, 70, 55);
-}
-
-.input_text {
-  margin: 10px;
-  font-weight: 50%;
-  font-size: 150%;
-}
-
-
-.search {
-  width: 20em;
-}
-
-.book {
-  width: 20em;
-  height: 450px;
-  background-color: black;
+	align-content: space-around;
 }

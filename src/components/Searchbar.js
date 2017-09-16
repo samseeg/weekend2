@@ -1,13 +1,16 @@
-import React, {Component} from 'react'
+import React, {Component} from 'react';
 
-class Searchbar extends Component {
-    
-    
-    render () {
+export default class Searchbar extends Component {
+
+    render() {
         return (
-            <input className="search"/>
+            <div>
+                <input className ="search" type="text" >
+                </input>
+                <div className="button">
+                    Button
+                    </div>
+                </div>
         )
     }
 }
-
-export default Searchbar;
