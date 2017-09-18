@@ -12,13 +12,13 @@ export default class Searchbar extends Component {
     render() {
         return (
             <div className="search">
-                <input className="search" type="text" value={this.state.input} onChange={(e) => {
+                <input className="input" type="text" value={this.state.input} onChange={(e) => {
                     this.setState({
                         input: e.target.value
                     })
                 }} />
                 <div className="button" onClick={() => this.props.add(this.state.input)}>
-                    Button
+                    Add to list
                     </div>
 
             </div>
